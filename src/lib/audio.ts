@@ -92,7 +92,7 @@ export class NotePlayer {
 
     const last = events[events.length - 1];
     const totalMs = (0.08 + last.time + last.dur) * 1000 + 250;
-    this.endTimer = setTimeout(() => this.stop(true), totalMs);
+    this.endTimer = setTimeout(() => this.start(events, moodId, onEnd), totalMs);
     return true;
   }
 
