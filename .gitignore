@@ -1,0 +1,6 @@
+node_modules
+.next
+next-env.d.ts
+public/embed.js
+*.tsbuildinfo
+public/p5.min.js
