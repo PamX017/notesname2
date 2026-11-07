@@ -1,4 +1,4 @@
-# Name Staff
+# notesname
 
 Type a name → **Generate** → the name draws itself in cursive made of five staff lines, with notes
 along the stroke. **Play** to hear a melody generated from the name. Share it with an embed snippet
