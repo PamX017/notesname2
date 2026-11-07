@@ -70,7 +70,7 @@ export default function Home() {
   return (
     <main className="wrap">
       <div className="topbar">
-        <span className="brand">name staff {"♪"}</span>
+        <span className="brand"> notesname {"♪"}</span>
         <div className="seg" role="group" aria-label="Theme">
           {(["system", "light", "dark"] as ThemePref[]).map((t) => (
             <button key={t} type="button" aria-pressed={pref === t} onClick={() => setPref(t)}>
@@ -80,7 +80,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h1>Write your name on a music staff.</h1>
+      <h1>Write your name on a notesname.</h1>
       <p className="lede">
         Type a name, generate, and watch it draw itself in handwriting made of staff lines. Press play to hear the
         melody hiding in the letters, then embed it on your own site.
